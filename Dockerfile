@@ -19,4 +19,4 @@ RUN /app/env/bin/pip install --upgrade pip && \
 EXPOSE 5000
 
 # Run Flask app
-CMD ["/app/env/bin/python", "app.py"]
+CMD ["/app/env/bin/python", "run.py"]
